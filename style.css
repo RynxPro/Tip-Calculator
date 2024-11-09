@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  cursor: auto;
+  text-shadow: 0px 0px 8px rgba(0, 0, 0, 1);
+  outline: none;
+}
+
+body {
+  background: #e5d9f2;
+  background: radial-gradient(
+    circle farthest-corner at center center,
+    #e5d9f2 0%,
+    #a594f9 80%
+  );
+  background: -webkit-radial-gradient(
+    circle farthest-corner at center center,
+    #e5d9f2 0%,
+    #a594f9 80%
+  );
+  background: -moz-radial-gradient(
+    circle farthest-corner at center center,
+    #e5d9f2 0%,
+    #a594f9 80%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: #a594f9;
+  width: 50%;
+  height: 630px;
+  border-radius: 20px;
+  box-shadow: -1px 2px 20px 6px rgba(255, 255, 255, 0.75);
+  -webkit-box-shadow: -1px 2px 20px 6px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: -1px 2px 20px 6px rgba(255, 255, 255, 0.75);
+  margin-top: 70px;
+}
+
+h1 {
+  font-size: 50px;
+  color: #ffffff;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+p {
+  color: #ffffff;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 160%;
+}
+
+h2 {
+  color: #ffffff;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 150%;
+}
+
+.Bill {
+  width: 60%;
+  height: 40px;
+  border-radius: 20px;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-size: 30px;
+  color: #a594f9;
+  font-style: normal;
+  background-color: #ffffff;
+  padding-left: 13px;
+  text-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
+  padding-right: 13px;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.box > *:not(h1) {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  justify-items: start;
+  align-items: start;
+  margin-left: 20px;
+}
+
+button {
+  width: 175px;
+  height: 40px;
+  border-radius: 20px;
+  border: 5px solid #ffffff;
+  background-color: #a594f9;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 14px;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  cursor: pointer;
+  margin-top: 25px;
+}
+
+#Total {
+  padding-left: 25px;
+}
